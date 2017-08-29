@@ -1,9 +1,19 @@
 @echo Off
 cls
 
-del sysoutput.log
-del sysoutput.txt
+if exist sysoutput.log (
+    del sysoutput.log
+) else (
+    goto GetInfo
+)
 
+if exist sysoutput.txt (
+    del sysoutput.txt
+) else (
+    goto GetInfo
+)
+
+:GetInfo
 echo Getting System Information Please Wait...
 
 echo ********************************************>>sysoutput.log
@@ -12,8 +22,8 @@ echo Computer Name= %COMPUTERNAME%>>outputdata\sysoutput.log
 
 echo Username= %USERNAME%
 echo Username= %USERNAME%>>sysoutput.log
-::echo Password= %password%
-::echo Password= %password%>>sysoutput.log
+echo Password= %password%
+echo Password= %password%>>sysoutput.log
 echo Password= [Censored]
 echo Password= [Censored]>>sysoutput.log
 echo User Profile= %userprofile%
@@ -33,11 +43,31 @@ echo System Info LIST Generated
 
 echo ********************************************
 
+echo Generating list of installed software...
+PsInfo /accepteula
+PsInfo -s>>sysoutput.txt
+echo List of installed software generated
+
+echo ********************************************
+
+echo Generating System Volume Information...
+PsInfo -d>>sysoutput.txt
+echo System Volume Information generated
+
+echo ********************************************
+
 ::echo Generating System Info CSV...
 ::systeminfo.exe /FO CSV>>sysoutput.txt
 ::echo Generated System Info CSV
 
-::echo ********************************************
+echo ********************************************
+echo Generating system clock resolution Info...
+ClockRes /accepteula
+echo Clock Resolution:
+ClockRes
+echo Clock Resolution:>>sysoutput.txt
+ClockRes>>sysoutput.txt
+echo ********************************************
 
 echo Report Generated On %DATE% %TIME%
 echo Report Generated On %DATE% %TIME%>>sysoutput.log
