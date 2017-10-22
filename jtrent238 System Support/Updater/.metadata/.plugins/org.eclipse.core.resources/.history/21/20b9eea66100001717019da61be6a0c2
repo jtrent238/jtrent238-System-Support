@@ -1,0 +1,5 @@
+package com.jtrent238.support.updater;
+
+public class UpdateInfo {
+
+}

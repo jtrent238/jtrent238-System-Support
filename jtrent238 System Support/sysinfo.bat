@@ -22,18 +22,18 @@ echo Computer Name= %COMPUTERNAME%>>outputdata\sysoutput.log
 
 echo Username= %USERNAME%
 echo Username= %USERNAME%>>sysoutput.log
-echo Password= %password%
-echo Password= %password%>>sysoutput.log
+::echo Password= %password%
+::echo Password= %password%>>sysoutput.log
 echo Password= [Censored]
 echo Password= [Censored]>>sysoutput.log
 echo User Profile= %userprofile%
 echo User Profile= %userprofile%>>sysoutput.log
 
-::echo ********************************************
+echo ********************************************
 
-::echo Generating System Info Table....
-::systeminfo.exe /FO TABLE>>sysoutput.txt
-::echo System Info Table Generated
+echo Generating System Info Table....
+systeminfo.exe /FO TABLE>>sysoutput.tbl
+echo System Info Table Generated
 
 echo ********************************************
 
@@ -56,9 +56,9 @@ echo System Volume Information generated
 
 echo ********************************************
 
-::echo Generating System Info CSV...
-::systeminfo.exe /FO CSV>>sysoutput.txt
-::echo Generated System Info CSV
+echo Generating System Info CSV...
+systeminfo.exe /FO CSV>>sysoutput.csv
+echo Generated System Info CSV
 
 echo ********************************************
 echo Generating system clock resolution Info...

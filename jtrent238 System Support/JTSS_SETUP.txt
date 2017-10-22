@@ -1,0 +1,83 @@
+Uninstaller	32,614	61%
+sqlite3.dll	280,431	52%
+BGInfo.bat	95	32%
+Bginfo.exe	926,016	55%
+CopyRights.txt	8,027	80%
+cpuz.ini	255	58%
+cpuz_readme.txt	6,634	75%
+cpuz_x32.exe	1,246,497	59%
+defines.db3	77,277	75%
+EASendMail45.dll	87,947	65%
+EntityFramework.dll	1,644,088	69%
+EntityFramework.SqlServer.dll	144,531	77%
+GPU-Z.exe	4,537,721	3%
+installedapps.ps1	259	39%
+jtrent238 System Support.exe	673,554	75%
+log4net.dll	108,603	61%
+Microsoft.Web.XmlTransform.dll	35,509	57%
+Nancy.dll	368,384	60%
+Newtonsoft.Json.dll	194,688	63%
+NLog.dll	213,423	66%
+NuGet.Core.dll	244,483	64%
+RapidCRC.exe	181,582	78%
+rcrcshex.dll	78,603	84%
+README.txt	511	50%
+settings.ini	45	-25%
+SharpRaven.dll	28,747	60%
+SharpRaven.Nancy.dll	7,307	60%
+autorun.inf	33	-37%
+sysinfo.bat	492	76%
+System.Net.Http.Formatting.dll	77,815	59%
+System.Web.Cors.dll	12,316	53%
+System.Web.Http.Cors.dll	18,210	53%
+System.Web.Http.dll	184,768	61%
+systeminfo.exe	31,838	54%
+TeamViewer.exe	12,038,702	71%
+TeamViewer_Desktop.exe	2,846,788	69%
+TeamViewer_Resource_ar.dll	107,161	86%
+TeamViewer_Resource_bg.dll	108,539	87%
+TeamViewer_Resource_cs.dll	110,010	86%
+TeamViewer_Resource_da.dll	105,492	87%
+TeamViewer_Resource_de.dll	107,506	87%
+TeamViewer_Resource_el.dll	110,720	87%
+TeamViewer_Resource_en.dll	102,393	87%
+TeamViewer_Resource_es.dll	106,305	87%
+TeamViewer_Resource_fi.dll	107,231	86%
+TeamViewer_Resource_fr.dll	108,105	87%
+TeamViewer_Resource_he.dll	105,199	85%
+TeamViewer_Resource_hr.dll	108,539	87%
+TeamViewer_Resource_hu.dll	108,813	87%
+TeamViewer_Resource_id.dll	103,701	87%
+TeamViewer_Resource_it.dll	106,721	87%
+TeamViewer_Resource_ja.dll	104,214	84%
+TeamViewer_Resource_ko.dll	101,735	84%
+TeamViewer_Resource_lt.dll	109,914	87%
+TeamViewer_Resource_nl.dll	106,736	87%
+TeamViewer_Resource_no.dll	105,275	87%
+TeamViewer_Resource_pl.dll	110,319	87%
+TeamViewer_Resource_pt.dll	106,628	87%
+TeamViewer_Resource_ro.dll	108,895	87%
+TeamViewer_Resource_ru.dll	109,215	87%
+TeamViewer_Resource_sk.dll	109,064	86%
+TeamViewer_Resource_sr.dll	109,339	86%
+TeamViewer_Resource_sv.dll	105,534	87%
+TeamViewer_Resource_th.dll	104,302	87%
+TeamViewer_Resource_tr.dll	107,571	87%
+TeamViewer_Resource_uk.dll	109,864	87%
+TeamViewer_Resource_vi.dll	106,799	87%
+TeamViewer_Resource_zhCN.dll	104,518	82%
+TeamViewer_Resource_zhTW.dll	103,604	82%
+TeamViewer_StaticRes.dll	1,487,802	37%
+tv_w32.dll	122,997	51%
+tv_w32.exe	122,630	52%
+tv_x64.dll	131,772	52%
+tv_x64.exe	134,008	54%
+version.ini	24	-33%
+WELT.exe	21,999	48%
+winver.exe	2,235	61%
+
+Result :
+    Number of files: 77
+    Total uncompressed size: 102767219 bytes
+    Total compressed size: 31892221 bytes
+    Install program size: 32090353 bytes

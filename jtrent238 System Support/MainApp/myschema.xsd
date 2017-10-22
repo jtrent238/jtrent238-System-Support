@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xsd:schema targetNamespace="http://schemas.microsoft.com/office/infopath/2003/myXSD/2017-09-06T23:27:55" xmlns:my="http://schemas.microsoft.com/office/infopath/2003/myXSD/2017-09-06T23:27:55" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:element name="myFields">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:field2" minOccurs="0"/>
+				<xsd:element ref="my:name" minOccurs="0"/>
+				<xsd:element ref="my:email" minOccurs="0"/>
+				<xsd:element ref="my:productkey" minOccurs="0"/>
+				<xsd:element ref="my:copyemail" minOccurs="0"/>
+			</xsd:sequence>
+			<xsd:anyAttribute processContents="lax" namespace="http://www.w3.org/XML/1998/namespace"/>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="field2" type="xsd:string"/>
+	<xsd:element name="name" type="xsd:string"/>
+	<xsd:element name="email" type="xsd:string"/>
+	<xsd:element name="productkey" type="xsd:string"/>
+	<xsd:element name="copyemail" nillable="true" type="xsd:boolean"/>
+</xsd:schema>

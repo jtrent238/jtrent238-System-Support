@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="jtrent238 System Support.exe" version="1.0.0.0" publicKeyToken="0a9c1f5221bea1fc" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="icon_iiw_icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="jtrent238 System Support" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="jtrent238 System Support.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="jtrent238 System Support.exe" size="2189240">
+      <assemblyIdentity name="jtrent238 System Support" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>HdHWiJh6r9ezwELqvSJ3J+712gyT+fubal+kNAR/GLA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="icon_iiw_icon.ico" size="338883">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>e3Xm/VUVDkoqkKUKMrKgMBaHdTMpmCj/Zllu1OEz8Y4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="jtrent238 System Support.exe.config" size="186">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>h0UeIdteCM29dGVw07LmHp593fPbh0IN11GyN3f2uRA=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=trent-PC\trent" issuerKeyHash="e2466e0d2da8d3e720b10bc4b231f4b5c831c4a7" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>PSaI4PTlZ3ukYUmM2nrmqM+yE3PfKwNTNPe9vlAfvjc=</DigestValue></Reference></SignedInfo><SignatureValue>C+qtI8lItz9Olnkip64poiI7uyx/N9Li20efC7bSqV/KfHGQ2n1wDjQgF+S9nLbENMpEijbfDttziSYmmBxK9mjMKJEbOUAfhMpD+Dx+UTNSghfWyuF4/vJCDOp3ztHXBSEEahEMx77NAM8yivT2nCqBrR+fSZtzQG35gQyCwcw=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>tUcdt+cAzEjH5IdUymL/AyueBt39UIfRDZwFfSP/iaiedX1PXdH4sKkOUg88zB/SJg9DdExjj1vpuTSmqYgHzPbRyCw62wERbJkbZTkiHFUFWRW01UeKO89u6LuS59iuuJVK9nutBKrdOuol6T/W664DRbqRy1xunLJetsK5uKc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="37be1f50bebdf73453032bdf7313b2cfa8e67ada8c4961a47b67e5f4e088263d" Description="" Url=""><as:assemblyIdentity name="jtrent238 System Support.exe" version="1.0.0.0" publicKeyToken="0a9c1f5221bea1fc" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=trent-PC\trent</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>/M+U97NBdsNPV4/VROq2dZ+VDfNWFL4QBao+kRgUVDE=</DigestValue></Reference></SignedInfo><SignatureValue>BQs/e4r8F0bvtn7wcWnNlRTdYpgl5p0uA5424zmmo7x6J44ma4vJcFGuGoLlSqzy13K+YNAACZbQSEIV7cPr3D0IzY9yrfRLS7QZQiS7cciTFlOrntvAo2nLGupZzgvTyD+ogyBEJYlQCD8CQOcFDacvQULGBZ6dmK/Lxb1gSO4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>tUcdt+cAzEjH5IdUymL/AyueBt39UIfRDZwFfSP/iaiedX1PXdH4sKkOUg88zB/SJg9DdExjj1vpuTSmqYgHzPbRyCw62wERbJkbZTkiHFUFWRW01UeKO89u6LuS59iuuJVK9nutBKrdOuol6T/W664DRbqRy1xunLJetsK5uKc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCATqgAwIBAgIQFZ9YTJUWYaJGbiKkxDb6PzANBgkqhkiG9w0BAQsFADAnMSUwIwYDVQQDHhwAdAByAGUAbgB0AC0AUABDAFwAdAByAGUAbgB0MB4XDTE3MDkwNzAxMDcwNFoXDTE4MDkwNzA3MDcwNFowJzElMCMGA1UEAx4cAHQAcgBlAG4AdAAtAFAAQwBcAHQAcgBlAG4AdDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAtUcdt+cAzEjH5IdUymL/AyueBt39UIfRDZwFfSP/iaiedX1PXdH4sKkOUg88zB/SJg9DdExjj1vpuTSmqYgHzPbRyCw62wERbJkbZTkiHFUFWRW01UeKO89u6LuS59iuuJVK9nutBKrdOuol6T/W664DRbqRy1xunLJetsK5uKcCAwEAATANBgkqhkiG9w0BAQsFAAOBgQAlaI0RKu3JpbrsRK1Oy01fcoFlihB22qmYevJzR+sllrjPEQ4KPVGikuFBOTpUyYe7pzzcd2zWpf6A9pFzTXWpzdmDQTDK1dDxm9x0rz/vQdMLm7FEYBa2ysFU+wxqMKL9tz2jzYhmWnxqiIemdHPI19Hq7UQ1Uaf6n7U9qCkwWg==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
