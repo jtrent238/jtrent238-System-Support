@@ -4,7 +4,7 @@
   <description asmv2:iconFile="icon_iiw_icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="jtrent238 System Support" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <assemblyIdentity name="jtrent238 System Support" version="1.0.0.1" language="neutral" processorArchitecture="msil" />
     <commandLine file="jtrent238 System Support.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -79,14 +79,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="jtrent238 System Support.exe" size="2634168">
-      <assemblyIdentity name="jtrent238 System Support" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="jtrent238 System Support.exe" size="3079632">
+      <assemblyIdentity name="jtrent238 System Support" version="1.0.0.1" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>NSvTZRpfEndeJPJwOKHTxGwpMxBG2UpuJIdfPaPae9w=</dsig:DigestValue>
+        <dsig:DigestValue>fDguhbQw1wYRwKoAGnwJxzJCXLSwSaU7C8gJZ5RPu6Q=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -243,13 +243,13 @@
       <dsig:DigestValue>e3Xm/VUVDkoqkKUKMrKgMBaHdTMpmCj/Zllu1OEz8Y4=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="jtrent238 System Support.exe.config" size="3410">
+  <file name="jtrent238 System Support.exe.config" size="3354">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>bDsdrEumsMxOA/QUVYG37jIyTWiJ4KoJUe9TYdIwdHc=</dsig:DigestValue>
+      <dsig:DigestValue>HhTgR4L2ZRrUUIzbwEIBGaLD1c7tMe6CPDaeu078TZM=</dsig:DigestValue>
     </hash>
   </file>
   <file name="NLog.config" size="1368">

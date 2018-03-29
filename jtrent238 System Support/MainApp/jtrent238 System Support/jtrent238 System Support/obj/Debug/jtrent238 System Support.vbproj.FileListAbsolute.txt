@@ -54,3 +54,61 @@ C:\Users\trent\Documents\jtrent238 System Support\MainApp\jtrent238 System Suppo
 C:\Users\trent\Documents\jtrent238 System Support\MainApp\jtrent238 System Support\jtrent238 System Support\bin\Debug\System.Web.Http.xml
 C:\Users\trent\Documents\jtrent238 System Support\MainApp\jtrent238 System Support\jtrent238 System Support\bin\Debug\System.Web.Http.Cors.xml
 C:\Users\trent\Documents\jtrent238 System Support\MainApp\jtrent238 System Support\jtrent238 System Support\obj\Debug\jtrent238_System_Support.Contact.resources
+C:\Users\User\Documents\GitKraken\jtrent238-System-Support\jtrent238 System Support\MainApp\jtrent238 System Support\jtrent238 System Support\bin\Debug\NLog.config
+C:\Users\User\Documents\GitKraken\jtrent238-System-Support\jtrent238 System Support\MainApp\jtrent238 System Support\jtrent238 System Support\bin\Debug\jtrent238 System Support.exe.config
+C:\Users\User\Documents\GitKraken\jtrent238-System-Support\jtrent238 System Support\MainApp\jtrent238 System Support\jtrent238 System Support\bin\Debug\jtrent238 System Support.exe.manifest
+C:\Users\User\Documents\GitKraken\jtrent238-System-Support\jtrent238 System Support\MainApp\jtrent238 System Support\jtrent238 System Support\bin\Debug\jtrent238 System Support.application
+C:\Users\User\Documents\GitKraken\jtrent238-System-Support\jtrent238 System Support\MainApp\jtrent238 System Support\jtrent238 System Support\bin\Debug\jtrent238 System Support.exe
+C:\Users\User\Documents\GitKraken\jtrent238-System-Support\jtrent238 System Support\MainApp\jtrent238 System Support\jtrent238 System Support\bin\Debug\jtrent238 System Support.pdb
+C:\Users\User\Documents\GitKraken\jtrent238-System-Support\jtrent238 System Support\MainApp\jtrent238 System Support\jtrent238 System Support\bin\Debug\jtrent238 System Support.xml
+C:\Users\User\Documents\GitKraken\jtrent238-System-Support\jtrent238 System Support\MainApp\jtrent238 System Support\jtrent238 System Support\bin\Debug\EASendMail45.dll
+C:\Users\User\Documents\GitKraken\jtrent238-System-Support\jtrent238 System Support\MainApp\jtrent238 System Support\jtrent238 System Support\bin\Debug\EntityFramework.dll
+C:\Users\User\Documents\GitKraken\jtrent238-System-Support\jtrent238 System Support\MainApp\jtrent238 System Support\jtrent238 System Support\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Documents\GitKraken\jtrent238-System-Support\jtrent238 System Support\MainApp\jtrent238 System Support\jtrent238 System Support\bin\Debug\log4net.dll
+C:\Users\User\Documents\GitKraken\jtrent238-System-Support\jtrent238 System Support\MainApp\jtrent238 System Support\jtrent238 System Support\bin\Debug\Microsoft.Web.XmlTransform.dll
+C:\Users\User\Documents\GitKraken\jtrent238-System-Support\jtrent238 System Support\MainApp\jtrent238 System Support\jtrent238 System Support\bin\Debug\Nancy.dll
+C:\Users\User\Documents\GitKraken\jtrent238-System-Support\jtrent238 System Support\MainApp\jtrent238 System Support\jtrent238 System Support\bin\Debug\Newtonsoft.Json.dll
+C:\Users\User\Documents\GitKraken\jtrent238-System-Support\jtrent238 System Support\MainApp\jtrent238 System Support\jtrent238 System Support\bin\Debug\NLog.dll
+C:\Users\User\Documents\GitKraken\jtrent238-System-Support\jtrent238 System Support\MainApp\jtrent238 System Support\jtrent238 System Support\bin\Debug\NuGet.Core.dll
+C:\Users\User\Documents\GitKraken\jtrent238-System-Support\jtrent238 System Support\MainApp\jtrent238 System Support\jtrent238 System Support\bin\Debug\SharpRaven.dll
+C:\Users\User\Documents\GitKraken\jtrent238-System-Support\jtrent238 System Support\MainApp\jtrent238 System Support\jtrent238 System Support\bin\Debug\SharpRaven.Nancy.dll
+C:\Users\User\Documents\GitKraken\jtrent238-System-Support\jtrent238 System Support\MainApp\jtrent238 System Support\jtrent238 System Support\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\User\Documents\GitKraken\jtrent238-System-Support\jtrent238 System Support\MainApp\jtrent238 System Support\jtrent238 System Support\bin\Debug\System.Web.Cors.dll
+C:\Users\User\Documents\GitKraken\jtrent238-System-Support\jtrent238 System Support\MainApp\jtrent238 System Support\jtrent238 System Support\bin\Debug\System.Web.Http.Cors.dll
+C:\Users\User\Documents\GitKraken\jtrent238-System-Support\jtrent238 System Support\MainApp\jtrent238 System Support\jtrent238 System Support\bin\Debug\System.Web.Http.dll
+C:\Users\User\Documents\GitKraken\jtrent238-System-Support\jtrent238 System Support\MainApp\jtrent238 System Support\jtrent238 System Support\bin\Debug\EntityFramework.xml
+C:\Users\User\Documents\GitKraken\jtrent238-System-Support\jtrent238 System Support\MainApp\jtrent238 System Support\jtrent238 System Support\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Documents\GitKraken\jtrent238-System-Support\jtrent238 System Support\MainApp\jtrent238 System Support\jtrent238 System Support\bin\Debug\log4net.xml
+C:\Users\User\Documents\GitKraken\jtrent238-System-Support\jtrent238 System Support\MainApp\jtrent238 System Support\jtrent238 System Support\bin\Debug\Nancy.xml
+C:\Users\User\Documents\GitKraken\jtrent238-System-Support\jtrent238 System Support\MainApp\jtrent238 System Support\jtrent238 System Support\bin\Debug\Newtonsoft.Json.xml
+C:\Users\User\Documents\GitKraken\jtrent238-System-Support\jtrent238 System Support\MainApp\jtrent238 System Support\jtrent238 System Support\bin\Debug\NLog.xml
+C:\Users\User\Documents\GitKraken\jtrent238-System-Support\jtrent238 System Support\MainApp\jtrent238 System Support\jtrent238 System Support\bin\Debug\SharpRaven.pdb
+C:\Users\User\Documents\GitKraken\jtrent238-System-Support\jtrent238 System Support\MainApp\jtrent238 System Support\jtrent238 System Support\bin\Debug\SharpRaven.xml
+C:\Users\User\Documents\GitKraken\jtrent238-System-Support\jtrent238 System Support\MainApp\jtrent238 System Support\jtrent238 System Support\bin\Debug\SharpRaven.Nancy.pdb
+C:\Users\User\Documents\GitKraken\jtrent238-System-Support\jtrent238 System Support\MainApp\jtrent238 System Support\jtrent238 System Support\bin\Debug\SharpRaven.Nancy.xml
+C:\Users\User\Documents\GitKraken\jtrent238-System-Support\jtrent238 System Support\MainApp\jtrent238 System Support\jtrent238 System Support\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\User\Documents\GitKraken\jtrent238-System-Support\jtrent238 System Support\MainApp\jtrent238 System Support\jtrent238 System Support\bin\Debug\System.Web.Http.xml
+C:\Users\User\Documents\GitKraken\jtrent238-System-Support\jtrent238 System Support\MainApp\jtrent238 System Support\jtrent238 System Support\bin\Debug\System.Web.Http.Cors.xml
+C:\Users\User\Documents\GitKraken\jtrent238-System-Support\jtrent238 System Support\MainApp\jtrent238 System Support\jtrent238 System Support\obj\Debug\jtrent238 System Support.vbprojResolveAssemblyReference.cache
+C:\Users\User\Documents\GitKraken\jtrent238-System-Support\jtrent238 System Support\MainApp\jtrent238 System Support\jtrent238 System Support\obj\Debug\jtrent238_System_Support.About.resources
+C:\Users\User\Documents\GitKraken\jtrent238-System-Support\jtrent238 System Support\MainApp\jtrent238 System Support\jtrent238 System Support\obj\Debug\jtrent238_System_Support.Contact.resources
+C:\Users\User\Documents\GitKraken\jtrent238-System-Support\jtrent238 System Support\MainApp\jtrent238 System Support\jtrent238 System Support\obj\Debug\jtrent238_System_Support.Github.resources
+C:\Users\User\Documents\GitKraken\jtrent238-System-Support\jtrent238 System Support\MainApp\jtrent238 System Support\jtrent238 System Support\obj\Debug\jtrent238_System_Support.Login.resources
+C:\Users\User\Documents\GitKraken\jtrent238-System-Support\jtrent238 System Support\MainApp\jtrent238 System Support\jtrent238 System Support\obj\Debug\jtrent238_System_Support.main.resources
+C:\Users\User\Documents\GitKraken\jtrent238-System-Support\jtrent238 System Support\MainApp\jtrent238 System Support\jtrent238 System Support\obj\Debug\jtrent238_System_Support.manualupdate.resources
+C:\Users\User\Documents\GitKraken\jtrent238-System-Support\jtrent238 System Support\MainApp\jtrent238 System Support\jtrent238 System Support\obj\Debug\jtrent238_System_Support.MoreTools.resources
+C:\Users\User\Documents\GitKraken\jtrent238-System-Support\jtrent238 System Support\MainApp\jtrent238 System Support\jtrent238 System Support\obj\Debug\jtrent238_System_Support.MoreTools_Basic.resources
+C:\Users\User\Documents\GitKraken\jtrent238-System-Support\jtrent238 System Support\MainApp\jtrent238 System Support\jtrent238 System Support\obj\Debug\jtrent238_System_Support.Resources.resources
+C:\Users\User\Documents\GitKraken\jtrent238-System-Support\jtrent238 System Support\MainApp\jtrent238 System Support\jtrent238 System Support\obj\Debug\jtrent238_System_Support.registry_hacks.resources
+C:\Users\User\Documents\GitKraken\jtrent238-System-Support\jtrent238 System Support\MainApp\jtrent238 System Support\jtrent238 System Support\obj\Debug\jtrent238_System_Support.Settings.resources
+C:\Users\User\Documents\GitKraken\jtrent238-System-Support\jtrent238 System Support\MainApp\jtrent238 System Support\jtrent238 System Support\obj\Debug\jtrent238_System_Support.Splash.resources
+C:\Users\User\Documents\GitKraken\jtrent238-System-Support\jtrent238 System Support\MainApp\jtrent238 System Support\jtrent238 System Support\obj\Debug\jtrent238_System_Support.Tuneup.resources
+C:\Users\User\Documents\GitKraken\jtrent238-System-Support\jtrent238 System Support\MainApp\jtrent238 System Support\jtrent238 System Support\obj\Debug\jtrent238_System_Support.TuneupComplete.resources
+C:\Users\User\Documents\GitKraken\jtrent238-System-Support\jtrent238 System Support\MainApp\jtrent238 System Support\jtrent238 System Support\obj\Debug\jtrent238_System_Support.UpdateChecker.resources
+C:\Users\User\Documents\GitKraken\jtrent238-System-Support\jtrent238 System Support\MainApp\jtrent238 System Support\jtrent238 System Support\obj\Debug\jtrent238 System Support.vbproj.GenerateResource.Cache
+C:\Users\User\Documents\GitKraken\jtrent238-System-Support\jtrent238 System Support\MainApp\jtrent238 System Support\jtrent238 System Support\obj\Debug\jtrent238 System Support.vbproj.CoreCompileInputs.cache
+C:\Users\User\Documents\GitKraken\jtrent238-System-Support\jtrent238 System Support\MainApp\jtrent238 System Support\jtrent238 System Support\obj\Debug\jtrent238 System Support.exe.manifest
+C:\Users\User\Documents\GitKraken\jtrent238-System-Support\jtrent238 System Support\MainApp\jtrent238 System Support\jtrent238 System Support\obj\Debug\jtrent238 System Support.application
+C:\Users\User\Documents\GitKraken\jtrent238-System-Support\jtrent238 System Support\MainApp\jtrent238 System Support\jtrent238 System Support\obj\Debug\jtrent238 System Support.exe
+C:\Users\User\Documents\GitKraken\jtrent238-System-Support\jtrent238 System Support\MainApp\jtrent238 System Support\jtrent238 System Support\obj\Debug\jtrent238 System Support.xml
+C:\Users\User\Documents\GitKraken\jtrent238-System-Support\jtrent238 System Support\MainApp\jtrent238 System Support\jtrent238 System Support\obj\Debug\jtrent238 System Support.pdb

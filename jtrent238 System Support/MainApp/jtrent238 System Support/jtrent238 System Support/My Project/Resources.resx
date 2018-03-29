@@ -160,4 +160,37 @@
   <data name="bug-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\res\img\bug-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="add_open_with_notepad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add_open_with_notepad.reg;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-16</value>
+  </data>
+  <data name="add_regedit_to_control_panel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add_regedit_to_control_panel.reg;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-16</value>
+  </data>
+  <data name="add_take_ownership" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add_take_ownership.reg;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="demouser" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\demouser.key;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="disable_auto_reboot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\disable_auto_reboot.reg;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-16</value>
+  </data>
+  <data name="enable_auto_reboot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enable_auto_reboot.reg;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-16</value>
+  </data>
+  <data name="icon_iiw_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\res\img\icon_iiw_icon.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="regedit-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\regedit-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="remove_open_with_notepad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\remove_open_with_notepad.reg;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-16</value>
+  </data>
+  <data name="remove_regedit_from_control_panel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\remove_regedit_from_control_panel.reg;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-16</value>
+  </data>
+  <data name="remove_take_ownership" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\remove_take_ownership.reg;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-16</value>
+  </data>
 </root>

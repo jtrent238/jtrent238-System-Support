@@ -11,14 +11,14 @@ Imports System.Runtime.InteropServices
 <Assembly: AssemblyTitle("jtrent238 System Support")> 
 <Assembly: AssemblyDescription("")> 
 <Assembly: AssemblyCompany("jtrent238")> 
-<Assembly: AssemblyProduct("jtrent238 System Support")> 
-<Assembly: AssemblyCopyright("Copyright ©  2017")> 
+<Assembly: AssemblyProduct("jtrent238 System Support")>
+<Assembly: AssemblyCopyright("Copyright ©  2017 - 2018")>
 <Assembly: AssemblyTrademark("")> 
 
 <Assembly: ComVisible(False)>
 
 'The following GUID is for the ID of the typelib if this project is exposed to COM
-<Assembly: Guid("07e90849-9303-45d3-8f6c-380493ff5f5a")> 
+<Assembly: Guid("07e90849-9303-45d3-8f6c-380493ff5f5a")>
 
 ' Version information for an assembly consists of the following four values:
 '
@@ -31,5 +31,5 @@ Imports System.Runtime.InteropServices
 ' by using the '*' as shown below:
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
-<Assembly: AssemblyVersion("1.0.0.0")> 
-<Assembly: AssemblyFileVersion("1.0.0.0")> 
+<Assembly: AssemblyVersion("1.0.0.1")>
+<Assembly: AssemblyFileVersion("1.0.0.1")>

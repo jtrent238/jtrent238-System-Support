@@ -213,4 +213,12 @@ Public Class main
             ravenClient.Capture(New SentryEvent(exception))
         End Try
     End Sub
+
+    Private Sub button_reg_hacks_Click(sender As Object, e As EventArgs) Handles button_reg_hacks.Click
+        Try
+            registry_hacks.Show()
+        Catch exception As Exception
+            ravenClient.Capture(New SentryEvent(exception))
+        End Try
+    End Sub
 End Class

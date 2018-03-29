@@ -22,7 +22,7 @@ Namespace My.Resources
     '''<summary>
     '''  A strongly-typed resource class, for looking up localized strings, etc.
     '''</summary>
-    <Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0"),  _
+    <Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0"),  _
      Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
      Global.System.Runtime.CompilerServices.CompilerGeneratedAttribute(),  _
      Global.Microsoft.VisualBasic.HideModuleNameAttribute()>  _
@@ -71,6 +71,70 @@ Namespace My.Resources
         End Property
         
         '''<summary>
+        '''  Looks up a localized string similar to Windows Registry Editor Version 5.00
+        '''
+        '''; created by Walter Glenn
+        '''; for How-To Geek
+        '''; article: http://www.howtogeek.com/281490/how-to-add-open-with-notepad-to-the-windows-context-menu-for-all-files/
+        '''
+        '''[HKEY_CLASSES_ROOT\*\shell\Open with Notepad\command]
+        '''@=&quot;notepad.exe %1&quot;
+        '''
+        '''.
+        '''</summary>
+        Friend ReadOnly Property add_open_with_notepad() As String
+            Get
+                Return ResourceManager.GetString("add_open_with_notepad", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Windows Registry Editor Version 5.00
+        '''
+        '''[HKEY_CLASSES_ROOT\CLSID\{77708248-f839-436b-8919-527c410f48b9}]
+        '''@=&quot;Registry Editor&quot;
+        '''&quot;InfoTip&quot;=&quot;Starts the Registry Editor&quot;
+        '''&quot;System.ControlPanel.Category&quot;=&quot;5&quot;
+        '''
+        '''[HKEY_CLASSES_ROOT\CLSID\{77708248-f839-436b-8919-527c410f48b9}\DefaultIcon]
+        '''@=&quot;%SYSTEMROOT%\\regedit.exe&quot;
+        '''
+        '''[HKEY_CLASSES_ROOT\CLSID\{77708248-f839-436b-8919-527c410f48b9}\Shell]
+        '''
+        '''[HKEY_CLASSES_ROOT\CLSID\{77708248-f839-436b-8919-527c410f48b9}\Shell\Open]
+        '''
+        '''[HKEY_CLASSES_ROOT\CLSID\{77708248-f839-436 [rest of string was truncated]&quot;;.
+        '''</summary>
+        Friend ReadOnly Property add_regedit_to_control_panel() As String
+            Get
+                Return ResourceManager.GetString("add_regedit_to_control_panel", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Windows Registry Editor Version 5.00
+        '''
+        '''; created by Walter Glenn
+        '''; for How-To Geek
+        '''; article: https://www.howtogeek.com/howto/windows-vista/add-take-ownership-to-explorer-right-click-menu-in-vista/
+        '''
+        '''[HKEY_CLASSES_ROOT\*\shell\runas]
+        '''@=&quot;Take Ownership&quot;
+        '''&quot;NoWorkingDirectory&quot;=&quot;&quot;
+        '''
+        '''[HKEY_CLASSES_ROOT\*\shell\runas\command]
+        '''@=&quot;cmd.exe /c takeown /f \&quot;%1\&quot; &amp;&amp; icacls \&quot;%1\&quot; /grant administrators:F&quot;
+        '''&quot;IsolatedCommand&quot;=&quot;cmd.exe /c takeown /f \&quot;%1\&quot; &amp;&amp; icacls \&quot;%1\&quot; /grant administrators:F&quot;
+        '''
+        '''[HKEY_CLASSES_R [rest of string was truncated]&quot;;.
+        '''</summary>
+        Friend ReadOnly Property add_take_ownership() As String
+            Get
+                Return ResourceManager.GetString("add_take_ownership", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
         Friend ReadOnly Property bug_256() As System.Drawing.Bitmap
@@ -97,6 +161,44 @@ Namespace My.Resources
             Get
                 Dim obj As Object = ResourceManager.GetObject("Delete", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Byte[].
+        '''</summary>
+        Friend ReadOnly Property demouser() As Byte()
+            Get
+                Dim obj As Object = ResourceManager.GetObject("demouser", resourceCulture)
+                Return CType(obj,Byte())
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Windows Registry Editor Version 5.00
+        '''
+        '''[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU]
+        '''&quot;NoAutoRebootWithLoggedOnUsers&quot;=dword:00000001
+        '''
+        '''.
+        '''</summary>
+        Friend ReadOnly Property disable_auto_reboot() As String
+            Get
+                Return ResourceManager.GetString("disable_auto_reboot", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Windows Registry Editor Version 5.00
+        '''
+        '''[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU]
+        '''&quot;NoAutoRebootWithLoggedOnUsers&quot;=-
+        '''
+        '''.
+        '''</summary>
+        Friend ReadOnly Property enable_auto_reboot() As String
+            Get
+                Return ResourceManager.GetString("enable_auto_reboot", resourceCulture)
             End Get
         End Property
         
@@ -161,6 +263,16 @@ Namespace My.Resources
         End Property
         
         '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        '''</summary>
+        Friend ReadOnly Property icon_iiw_icon() As System.Drawing.Icon
+            Get
+                Dim obj As Object = ResourceManager.GetObject("icon_iiw_icon", resourceCulture)
+                Return CType(obj,System.Drawing.Icon)
+            End Get
+        End Property
+        
+        '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
         Friend ReadOnly Property info() As System.Drawing.Bitmap
@@ -177,6 +289,66 @@ Namespace My.Resources
             Get
                 Dim obj As Object = ResourceManager.GetObject("Refresh", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property regedit_icon() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("regedit-icon", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Windows Registry Editor Version 5.00
+        '''
+        '''; created by Walter Glenn
+        '''; for How-To Geek
+        '''; article: http://www.howtogeek.com/281490/how-to-add-open-with-notepad-to-the-windows-context-menu-for-all-files/
+        '''
+        '''[-HKEY_CLASSES_ROOT\*\shell\Open with Notepad]
+        '''
+        '''.
+        '''</summary>
+        Friend ReadOnly Property remove_open_with_notepad() As String
+            Get
+                Return ResourceManager.GetString("remove_open_with_notepad", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Windows Registry Editor Version 5.00
+        '''
+        '''[-HKEY_CLASSES_ROOT\CLSID\{77708248-f839-436b-8919-527c410f48b9}]
+        '''
+        '''[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ControlPanel\NameSpace\{77708248-f839-436b-8919-527c410f48b9}]
+        '''.
+        '''</summary>
+        Friend ReadOnly Property remove_regedit_from_control_panel() As String
+            Get
+                Return ResourceManager.GetString("remove_regedit_from_control_panel", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Windows Registry Editor Version 5.00
+        '''
+        '''; created by Walter Glenn
+        '''; for How-To Geek
+        '''; article: https://www.howtogeek.com/howto/windows-vista/add-take-ownership-to-explorer-right-click-menu-in-vista/
+        '''
+        '''
+        '''[-HKEY_CLASSES_ROOT\*\shell\runas]
+        '''
+        '''[-HKEY_CLASSES_ROOT\Directory\shell\runas]
+        '''.
+        '''</summary>
+        Friend ReadOnly Property remove_take_ownership() As String
+            Get
+                Return ResourceManager.GetString("remove_take_ownership", resourceCulture)
             End Get
         End Property
         

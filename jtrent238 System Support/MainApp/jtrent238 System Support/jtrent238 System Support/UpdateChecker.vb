@@ -46,7 +46,7 @@ Public Class UpdateChecker
                 Button2.Enabled.Equals(False)
             End If
 
-            If Label2.Text.ToString <> Label3.Text.ToString Then
+            If Label2.Text.ToString = Label3.Text.ToString Then
                 Button2.Enabled.Equals(True)
             End If
         Catch exception As Exception

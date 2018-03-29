@@ -13,6 +13,7 @@
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <IsWebBootstrapper>false</IsWebBootstrapper>
+    <NuGetPackageImportStamp>ba391b5e</NuGetPackageImportStamp>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -28,7 +29,6 @@
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
-    <NuGetPackageImportStamp>ba391b5e</NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -243,6 +243,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="registry_hacks.Designer.vb">
+      <DependentUpon>registry_hacks.vb</DependentUpon>
+    </Compile>
+    <Compile Include="registry_hacks.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="SentryReporter.vb" />
     <Compile Include="Settings.Designer.vb">
       <DependentUpon>Settings.vb</DependentUpon>
@@ -308,6 +314,9 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="registry_hacks.resx">
+      <DependentUpon>registry_hacks.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Settings.resx">
       <DependentUpon>Settings.vb</DependentUpon>
     </EmbeddedResource>
@@ -348,6 +357,18 @@
     <Content Include="NLog.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <None Include="Resources\demouser.key" />
+    <None Include="res\img\icon_iiw_icon.ico" />
+    <None Include="res\img\icon.png" />
+    <None Include="Resources\add_open_with_notepad.reg" />
+    <None Include="Resources\add_regedit_to_control_panel.reg" />
+    <None Include="Resources\add_take_ownership.reg" />
+    <None Include="Resources\disable_auto_reboot.reg" />
+    <None Include="Resources\enable_auto_reboot.reg" />
+    <None Include="Resources\regedit-icon.png" />
+    <None Include="Resources\remove_open_with_notepad.reg" />
+    <None Include="Resources\remove_regedit_from_control_panel.reg" />
+    <None Include="Resources\remove_take_ownership.reg" />
     <None Include="res\img\bug-256.png" />
     <None Include="NLog.xsd">
       <SubType>Designer</SubType>
@@ -392,9 +413,7 @@
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Resources\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

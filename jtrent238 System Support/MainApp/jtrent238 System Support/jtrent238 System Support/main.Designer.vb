@@ -47,6 +47,7 @@ Partial Class main
         Me.LaunchTeamViewerButton = New System.Windows.Forms.Button()
         Me.ButtonContact = New System.Windows.Forms.Button()
         Me.ButtonBugReport = New System.Windows.Forms.Button()
+        Me.button_reg_hacks = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
@@ -276,11 +277,22 @@ Partial Class main
         Me.ButtonBugReport.TabIndex = 11
         Me.ButtonBugReport.UseVisualStyleBackColor = True
         '
+        'button_reg_hacks
+        '
+        Me.button_reg_hacks.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.button_reg_hacks.Location = New System.Drawing.Point(466, 235)
+        Me.button_reg_hacks.Name = "button_reg_hacks"
+        Me.button_reg_hacks.Size = New System.Drawing.Size(138, 43)
+        Me.button_reg_hacks.TabIndex = 13
+        Me.button_reg_hacks.Text = "Registry Hacks"
+        Me.button_reg_hacks.UseVisualStyleBackColor = True
+        '
         'main
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(616, 399)
+        Me.Controls.Add(Me.button_reg_hacks)
         Me.Controls.Add(Me.Button11)
         Me.Controls.Add(Me.ButtonBugReport)
         Me.Controls.Add(Me.ButtonContact)
@@ -333,5 +345,5 @@ Partial Class main
     Friend WithEvents LaunchTeamViewerButton As System.Windows.Forms.Button
     Friend WithEvents ButtonContact As System.Windows.Forms.Button
     Friend WithEvents ButtonBugReport As System.Windows.Forms.Button
-
+    Friend WithEvents button_reg_hacks As Button
 End Class

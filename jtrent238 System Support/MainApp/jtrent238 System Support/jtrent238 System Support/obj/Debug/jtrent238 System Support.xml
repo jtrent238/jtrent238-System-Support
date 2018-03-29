@@ -2,123 +2,270 @@
 <doc>
 <assembly>
 <name>
-jtrent238SystemSupport
+jtrent238 System Support
 </name>
 </assembly>
 <members>
+<member name="T:jtrent238_System_Support.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
 <member name="P:jtrent238_System_Support.My.Resources.Resources.ResourceManager">
-	<summary>
+<summary>
   Returns the cached ResourceManager instance used by this class.
 </summary>
-</member><member name="P:jtrent238_System_Support.My.Resources.Resources.Culture">
-	<summary>
+</member>
+<member name="P:jtrent238_System_Support.My.Resources.Resources.Culture">
+<summary>
   Overrides the current thread's CurrentUICulture property for all
   resource lookups using this strongly typed resource class.
 </summary>
-</member><member name="P:jtrent238_System_Support.My.Resources.Resources._Next">
-	<summary>
+</member>
+<member name="P:jtrent238_System_Support.My.Resources.Resources._Next">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:jtrent238_System_Support.My.Resources.Resources.bug_256">
-	<summary>
+</member>
+<member name="P:jtrent238_System_Support.My.Resources.Resources.add_open_with_notepad">
+<summary>
+  Looks up a localized string similar to Windows Registry Editor Version 5.00
+
+; created by Walter Glenn
+; for How-To Geek
+; article: http://www.howtogeek.com/281490/how-to-add-open-with-notepad-to-the-windows-context-menu-for-all-files/
+
+[HKEY_CLASSES_ROOT\*\shell\Open with Notepad\command]
+@=&quot;notepad.exe %1&quot;
+
+.
+</summary>
+</member>
+<member name="P:jtrent238_System_Support.My.Resources.Resources.add_regedit_to_control_panel">
+<summary>
+  Looks up a localized string similar to Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\CLSID\{77708248-f839-436b-8919-527c410f48b9}]
+@=&quot;Registry Editor&quot;
+&quot;InfoTip&quot;=&quot;Starts the Registry Editor&quot;
+&quot;System.ControlPanel.Category&quot;=&quot;5&quot;
+
+[HKEY_CLASSES_ROOT\CLSID\{77708248-f839-436b-8919-527c410f48b9}\DefaultIcon]
+@=&quot;%SYSTEMROOT%\\regedit.exe&quot;
+
+[HKEY_CLASSES_ROOT\CLSID\{77708248-f839-436b-8919-527c410f48b9}\Shell]
+
+[HKEY_CLASSES_ROOT\CLSID\{77708248-f839-436b-8919-527c410f48b9}\Shell\Open]
+
+[HKEY_CLASSES_ROOT\CLSID\{77708248-f839-436 [rest of string was truncated]&quot;;.
+</summary>
+</member>
+<member name="P:jtrent238_System_Support.My.Resources.Resources.add_take_ownership">
+<summary>
+  Looks up a localized string similar to Windows Registry Editor Version 5.00
+
+; created by Walter Glenn
+; for How-To Geek
+; article: https://www.howtogeek.com/howto/windows-vista/add-take-ownership-to-explorer-right-click-menu-in-vista/
+
+[HKEY_CLASSES_ROOT\*\shell\runas]
+@=&quot;Take Ownership&quot;
+&quot;NoWorkingDirectory&quot;=&quot;&quot;
+
+[HKEY_CLASSES_ROOT\*\shell\runas\command]
+@=&quot;cmd.exe /c takeown /f \&quot;%1\&quot; &amp;&amp; icacls \&quot;%1\&quot; /grant administrators:F&quot;
+&quot;IsolatedCommand&quot;=&quot;cmd.exe /c takeown /f \&quot;%1\&quot; &amp;&amp; icacls \&quot;%1\&quot; /grant administrators:F&quot;
+
+[HKEY_CLASSES_R [rest of string was truncated]&quot;;.
+</summary>
+</member>
+<member name="P:jtrent238_System_Support.My.Resources.Resources.bug_256">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:jtrent238_System_Support.My.Resources.Resources.computer_screen">
-	<summary>
+</member>
+<member name="P:jtrent238_System_Support.My.Resources.Resources.computer_screen">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:jtrent238_System_Support.My.Resources.Resources.Delete">
-	<summary>
+</member>
+<member name="P:jtrent238_System_Support.My.Resources.Resources.Delete">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:jtrent238_System_Support.My.Resources.Resources.envelope">
-	<summary>
+</member>
+<member name="P:jtrent238_System_Support.My.Resources.Resources.disable_auto_reboot">
+<summary>
+  Looks up a localized string similar to Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU]
+&quot;NoAutoRebootWithLoggedOnUsers&quot;=dword:00000001
+
+.
+</summary>
+</member>
+<member name="P:jtrent238_System_Support.My.Resources.Resources.enable_auto_reboot">
+<summary>
+  Looks up a localized string similar to Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU]
+&quot;NoAutoRebootWithLoggedOnUsers&quot;=-
+
+.
+</summary>
+</member>
+<member name="P:jtrent238_System_Support.My.Resources.Resources.envelope">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:jtrent238_System_Support.My.Resources.Resources.gear">
-	<summary>
+</member>
+<member name="P:jtrent238_System_Support.My.Resources.Resources.gear">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:jtrent238_System_Support.My.Resources.Resources.github">
-	<summary>
+</member>
+<member name="P:jtrent238_System_Support.My.Resources.Resources.github">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:jtrent238_System_Support.My.Resources.Resources.Go_back">
-	<summary>
+</member>
+<member name="P:jtrent238_System_Support.My.Resources.Resources.Go_back">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:jtrent238_System_Support.My.Resources.Resources.Go_forward">
-	<summary>
+</member>
+<member name="P:jtrent238_System_Support.My.Resources.Resources.Go_forward">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:jtrent238_System_Support.My.Resources.Resources.Home">
-	<summary>
+</member>
+<member name="P:jtrent238_System_Support.My.Resources.Resources.Home">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:jtrent238_System_Support.My.Resources.Resources.info">
-	<summary>
+</member>
+<member name="P:jtrent238_System_Support.My.Resources.Resources.icon_iiw_icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:jtrent238_System_Support.My.Resources.Resources.info">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:jtrent238_System_Support.My.Resources.Resources.Refresh">
-	<summary>
+</member>
+<member name="P:jtrent238_System_Support.My.Resources.Resources.Refresh">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:jtrent238_System_Support.My.Resources.Resources.tuneup_complete">
-	<summary>
+</member>
+<member name="P:jtrent238_System_Support.My.Resources.Resources.regedit_icon">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:jtrent238_System_Support.My.Resources.Resources.update">
-	<summary>
+</member>
+<member name="P:jtrent238_System_Support.My.Resources.Resources.remove_open_with_notepad">
+<summary>
+  Looks up a localized string similar to Windows Registry Editor Version 5.00
+
+; created by Walter Glenn
+; for How-To Geek
+; article: http://www.howtogeek.com/281490/how-to-add-open-with-notepad-to-the-windows-context-menu-for-all-files/
+
+[-HKEY_CLASSES_ROOT\*\shell\Open with Notepad]
+
+.
+</summary>
+</member>
+<member name="P:jtrent238_System_Support.My.Resources.Resources.remove_regedit_from_control_panel">
+<summary>
+  Looks up a localized string similar to Windows Registry Editor Version 5.00
+
+[-HKEY_CLASSES_ROOT\CLSID\{77708248-f839-436b-8919-527c410f48b9}]
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ControlPanel\NameSpace\{77708248-f839-436b-8919-527c410f48b9}]
+.
+</summary>
+</member>
+<member name="P:jtrent238_System_Support.My.Resources.Resources.remove_take_ownership">
+<summary>
+  Looks up a localized string similar to Windows Registry Editor Version 5.00
+
+; created by Walter Glenn
+; for How-To Geek
+; article: https://www.howtogeek.com/howto/windows-vista/add-take-ownership-to-explorer-right-click-menu-in-vista/
+
+
+[-HKEY_CLASSES_ROOT\*\shell\runas]
+
+[-HKEY_CLASSES_ROOT\Directory\shell\runas]
+.
+</summary>
+</member>
+<member name="P:jtrent238_System_Support.My.Resources.Resources.tuneup_complete">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="T:jtrent238_System_Support.My.Resources.Resources">
-	<summary>
+</member>
+<member name="P:jtrent238_System_Support.My.Resources.Resources.update">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:jtrent238_System_Support.manualupdate">
+<summary>
   A strongly-typed resource class, for looking up localized strings, etc.
 </summary>
-</member><member name="P:jtrent238_System_Support.manualupdate.ResourceManager">
-	<summary>
+</member>
+<member name="P:jtrent238_System_Support.manualupdate.ResourceManager">
+<summary>
   Returns the cached ResourceManager instance used by this class.
 </summary>
-</member><member name="P:jtrent238_System_Support.manualupdate.Culture">
-	<summary>
+</member>
+<member name="P:jtrent238_System_Support.manualupdate.Culture">
+<summary>
   Overrides the current thread's CurrentUICulture property for all
   resource lookups using this strongly typed resource class.
 </summary>
-</member><member name="P:jtrent238_System_Support.manualupdate.Cancel_Modifiers">
-	<summary>
+</member>
+<member name="P:jtrent238_System_Support.manualupdate.Cancel_Modifiers">
+<summary>
   Looks up a localized resource of type System.CodeDom.MemberAttributes similar to Assembly.
 </summary>
-</member><member name="P:jtrent238_System_Support.manualupdate.LogoPictureBox_Image">
-	<summary>
+</member>
+<member name="P:jtrent238_System_Support.manualupdate.LogoPictureBox_Image">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:jtrent238_System_Support.manualupdate.LogoPictureBox_Modifiers">
-	<summary>
+</member>
+<member name="P:jtrent238_System_Support.manualupdate.LogoPictureBox_Modifiers">
+<summary>
   Looks up a localized resource of type System.CodeDom.MemberAttributes similar to Assembly.
 </summary>
-</member><member name="P:jtrent238_System_Support.manualupdate.OK_Modifiers">
-	<summary>
+</member>
+<member name="P:jtrent238_System_Support.manualupdate.OK_Modifiers">
+<summary>
   Looks up a localized resource of type System.CodeDom.MemberAttributes similar to Assembly.
 </summary>
-</member><member name="P:jtrent238_System_Support.manualupdate.PasswordLabel_Modifiers">
-	<summary>
+</member>
+<member name="P:jtrent238_System_Support.manualupdate.PasswordLabel_Modifiers">
+<summary>
   Looks up a localized resource of type System.CodeDom.MemberAttributes similar to Assembly.
 </summary>
-</member><member name="P:jtrent238_System_Support.manualupdate.PasswordTextBox_Modifiers">
-	<summary>
+</member>
+<member name="P:jtrent238_System_Support.manualupdate.PasswordTextBox_Modifiers">
+<summary>
   Looks up a localized resource of type System.CodeDom.MemberAttributes similar to Assembly.
 </summary>
-</member><member name="P:jtrent238_System_Support.manualupdate.UsernameLabel_Modifiers">
-	<summary>
+</member>
+<member name="P:jtrent238_System_Support.manualupdate.UsernameLabel_Modifiers">
+<summary>
   Looks up a localized resource of type System.CodeDom.MemberAttributes similar to Assembly.
 </summary>
-</member><member name="P:jtrent238_System_Support.manualupdate.UsernameTextBox_Modifiers">
-	<summary>
+</member>
+<member name="P:jtrent238_System_Support.manualupdate.UsernameTextBox_Modifiers">
+<summary>
   Looks up a localized resource of type System.CodeDom.MemberAttributes similar to Assembly.
-</summary>
-</member><member name="T:jtrent238_System_Support.manualupdate">
-	<summary>
-  A strongly-typed resource class, for looking up localized strings, etc.
 </summary>
 </member>
 </members>
